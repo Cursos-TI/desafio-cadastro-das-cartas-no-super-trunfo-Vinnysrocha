@@ -18,24 +18,19 @@ int main() {
     float PIB;
     int pontos;
     printf("\n>> SUPER TRUNFO <<\n");
+    printf("\n<<CADASTRO DE CARTAS>>\n");
     printf("Insira o codigo da carta:\nR:");
     scanf(" %d",&codigo);
-    fflush(stdin);
     printf("Insira o nome de sua cidade:\nR:");
     scanf(" %s",&nome);
-    fflush(stdin);    
     printf("Insira o numero de população:\nR:");
     scanf(" %d",&populacao);
-    fflush(stdin);
-    printf("Insira o numero area:\nR:");
+    printf("Insira o numero de area:\nR:");
     scanf(" %d",&area);
-    fflush(stdin);
     printf("Insira o PIB:\nR:");
     scanf(" %f",&PIB);
-    fflush(stdin);
-    printf("Insira o numeros pontos turísticos:\nR:");
+    printf("Insira o numeros de pontos turísticos:\nR:");
     scanf(" %d",&pontos);
-    fflush(stdin);
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
